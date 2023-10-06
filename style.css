@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    padding:0px;
+    font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+    background: linear-gradient(white, #D3D8E8);
+}
+
+#headerWrapper {
+    width:100%;
+    min-width:980px;
+    background-color:#4c66a4;
+}
+#header {
+    width:980px;
+    margin:0px auto;
+    padding:0px;
+    height:85px;
+}
+#header li {
+    list-style-type:none;
+    float:left;
+    text-align:left;
+    color:white;
+}
+
+#header #siteName {
+    margin-top:25px;
+}
+
+#header #siteName a {
+    color:white;
+    text-decoration:none;
+    font-size:30px;
+    font-weight:900;
+}
+
+#header form {
+    margin-top:15px;
+    float:right;
+}
+
+#header form li {
+    font-size:13px;
+    margin-left:15px;
+}
+
+#header form li a {
+    color:#A9BCF5;
+    text-decoration:none;
+}
+
+#header form input[type="text"] {
+    margin-top:3px;
+    margin-bottom:3px;
+    width:150px;
+    border:1px solid #082a8e;
+    height:25px;
+    padding-left:3px;
+}
+
+#header form input[type="password"] {
+    margin-top:3px;
+    margin-bottom:3px;
+    width:150px;
+    border:1px solid #082a8e;
+    height:25px;
+    padding-left:3px;
+}
+
+#header form input[type="submit"] {
+    height:25px;
+    margin-top:20px;
+    background-color:#084B8A;
+    color:white;
+    border:1px solid #082a8e;
+}
+
+#wrapper section {
+    float: left;
+    width: 50%;
+}
+
+
+#wrapper {
+    margin:0 auto;
+    padding:0px;
+    text-align:center;
+
+}
+
+#introduction ul li >*{
+    display: inline-block;
+}
+
+#introduction ul li {
+    list-style-type: none;
+}
+
+
+#wrapper div {
+    /* float:left; */
+    font-family: helvetica, arial, sans-serif;
+}
+
+#wrapper #siteName {
+    margin-top:30px;
+    width:590px;
+    text-align:left;
+}
+
+#wrapper #siteName p {
+    font-size:20px;
+    font-family:arial;
+    font-weight:bold;
+    margin:0px;
+    color:#0e385f;
+}
+
+#wrapper #signUp {
+    margin-top:10px;
+    width:390px;
+    text-align:left;
+}
+
+#wrapper #signUp h1 {
+    margin:0px;
+    font-size:37px;
+    color:#2E2E2E;
+}
+
+#wrapper #signUp p {
+    font-size:18px;
+    color:#2E2E2E;
+}
+
+#wrapper #signUp li {
+    list-style-type:none;
+    margin-top:10px;
+}
+
+#wrapper #signUp li #firstName {
+    width:49%;
+}
+
+#wrapper #signUp li #lastName {
+    margin-left:2%;
+    width:49%;
+}
+
+#wrapper #signUp li input[type="text"] {
+    width:100%;
+    height:40px;
+    border-radius:5px;
+    padding-left:10px;
+    font-size:18px;
+    border:1px solid #BDBDBD;
+}
+
+#wrapper #signUp li input[type="password"] {
+    width:100%;
+    height:40px;
+    border-radius:5px;
+    padding-left:10px;
+    font-size:18px;
+    border:1px solid #BDBDBD;
+}
+
+#wrapper #signUp li select {
+    padding:4px;
+    float:left;
+}
+
+#wrapper #signUp li a {
+    margin-left:10px;
+    width:150px;
+    color:#045FB4;
+    text-decoration:none;
+    font-size:11px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height:15px;
+}
+
+#wrapper #signUp li a:hover {
+    text-decoration:underline;
+}
+
+#wrapper #signUp li {
+    color:#2E2E2E;
+    font-size:18px;
+}
+
+#wrapper #signUp #terms {
+    color:#424242;
+    font-size:11px;
+}
+
+#wrapper #signUp #terms a {
+    display:inline;
+    margin:0px;
+}
+
+#wrapper #signUp li input[type="submit"] {
+    width:205px;
+    height:45px;
+    text-align:center;
+    font-size:19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+    font-weight: bold !important;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+#wrapper #signUp #createPage {
+    color:#424242;
+    font-size:13px;
+    font-weight:bold;
+}
+
+#wrapper #signUp #createPage a {
+    display:inline;
+    margin:0px;
+    font-size:13px;
+}
